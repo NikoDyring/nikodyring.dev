@@ -12,7 +12,7 @@
         <div
           class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center"
           style="
-            background-image: url('../assets/ProfilePicture.webp');
+            background-image: src('../assets/ProfilePicture.webp');
           "
         ></div>
 
