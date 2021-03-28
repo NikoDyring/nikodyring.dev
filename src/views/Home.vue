@@ -12,7 +12,7 @@
         <div
           class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center"
           style="
-            background-image: src('../assets/ProfilePicture.webp');
+            background-image: url('https://avatars.githubusercontent.com/u/9385903?s=400&u=cf2e5e4312c8aca94103c546a676cff04aa77db7&v=4');
           "
         ></div>
 
