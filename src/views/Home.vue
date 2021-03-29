@@ -35,7 +35,7 @@
           Software Developer
         </p>
         <p
-          class="pt-2 text-gray-600 text-xs lg:text-sm flex items-center justify-center lg:justify-start"
+          class="pt-2 text-xs lg:text-sm flex items-center justify-center lg:justify-start"
         >
           <svg
             class="h-4 fill-current text-green-700 pr-4"
@@ -175,6 +175,7 @@ export default defineComponent({
         body!.classList.remove('bg-gray-300')
         body!.classList.add('bg-gray-900')
         profile!.classList.remove('bg-white')
+        profile!.classList.add('text-white')
         profile!.classList.add('bg-gray-900')
       } else {
         toggle!.innerHTML = '🌙'
@@ -183,6 +184,7 @@ export default defineComponent({
         body!.classList.remove('bg-gray-900')
         body!.classList.add('bg-gray-300')
         profile!.classList.remove('bg-gray-900')
+        profile!.classList.remove('text-white')
         profile!.classList.add('bg-white')
       }
     })
