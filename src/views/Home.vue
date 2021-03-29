@@ -157,7 +157,9 @@ export default defineComponent({
   mounted () {
   // Init tooltips
     tippy('.link', {
-      placement: 'bottom'
+      placement: 'bottom',
+      animation: 'scale',
+      duration: 0
     })
     // Toggle mode
     const toggle = document.querySelector('.js-change-theme')
