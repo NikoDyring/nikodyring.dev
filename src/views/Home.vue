@@ -16,7 +16,7 @@
           "
         ></div>
 
-        <h1 class="text-3xl font-bold pt-8 lg:pt-0">Nikolaj Dyring Jensen</h1>
+        <h1 class="text-3xl font-bold pt-6 lg:pt-0">Nikolaj Dyring Jensen</h1>
         <div
           class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"
         ></div>
