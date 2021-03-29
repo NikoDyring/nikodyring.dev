@@ -16,7 +16,7 @@
           "
         ></div>
 
-        <h1 class="text-3xl font-bold pt-6 lg:pt-0">Nikolaj Dyring Jensen</h1>
+        <h1 class="text-3xl font-bold pt-6 lg:pt-0"><button class="h-8 m-2 js-change-theme focus:outline-none">🌙</button>Nikolaj Dyring Jensen</h1>
         <div
           class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"
         ></div>
@@ -141,9 +141,9 @@
     </div>
 
     <!-- Pin to top right corner -->
-    <div class="absolute top-0 right-0 h-12 w-18 p-4">
+    <!-- <div class="absolute top-0 right-0 h-12 w-18 p-4">
       <button class="js-change-theme focus:outline-none">🌙</button>
-    </div>
+    </div> -->
   </div>
 </template>
 
