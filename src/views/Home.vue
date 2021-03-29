@@ -135,7 +135,7 @@
       <!-- Big profile image for side bar (desktop) -->
       <img
         src="../assets/ProfilePicture.webp"
-        class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block"
+        class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block bg-center bg-cover"
       />
       <!-- Image from: http://unsplash.com/photos/MP0IUfwrn0A -->
     </div>
@@ -149,11 +149,43 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import tippy from 'tippy.js'
 
 export default defineComponent({
   name: 'Home',
-  components: {}
+  components: {},
+  mounted () {
+  // Init tooltips
+    tippy('.link', {
+      placement: 'bottom'
+    })
+    // Toggle mode
+    const toggle = document.querySelector('.js-change-theme')
+    const body = document.querySelector('body')
+    const profile = document.getElementById('profile')
+
+    toggle!.addEventListener('click', () => {
+      if (body!.classList.contains('text-gray-900')) {
+        toggle!.innerHTML = '☀️'
+        body!.classList.remove('text-gray-900')
+        body!.classList.add('text-gray-100')
+        body!.classList.remove('bg-gray-300')
+        body!.classList.add('bg-gray-900')
+        profile!.classList.remove('bg-white')
+        profile!.classList.add('bg-gray-900')
+      } else {
+        toggle!.innerHTML = '🌙'
+        body!.classList.remove('text-gray-100')
+        body!.classList.add('text-gray-900')
+        body!.classList.remove('bg-gray-900')
+        body!.classList.add('bg-gray-300')
+        profile!.classList.remove('bg-gray-900')
+        profile!.classList.add('bg-white')
+      }
+    })
+  }
 })
+
 </script>
 
 <style scoped>
