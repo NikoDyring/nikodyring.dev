@@ -1,5 +1,11 @@
 # nikodyring.dev
 
+Personal website developed with the help of:
+VueJS 3.0
+TypeScript
+Tailwindcss
+and Vercel for deployment
+
 ## Project setup
 ```
 npm install
