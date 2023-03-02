@@ -81,6 +81,6 @@ test:
 #
 production:
   <<: *default
-  database: project_olympus_production
-  username: project_olympus
-  password: <%= ENV["PROJECT_OLYMPUS_DATABASE_PASSWORD"] %>
+  database: nikodyring_production
+  username: deploy
+  password: art23491scle
