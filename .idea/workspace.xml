@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="de6ad799-63ca-4cca-a164-3c70db0f3bd0" name="Changes" comment="Add article model">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Capfile" beforeDir="false" afterPath="$PROJECT_DIR$/Capfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +141,7 @@
       <updated>1677458452480</updated>
       <workItem from="1677458453496" duration="1933000" />
       <workItem from="1677715563400" duration="167000" />
-      <workItem from="1677715745603" duration="29673000" />
+      <workItem from="1677715745603" duration="30289000" />
     </task>
     <task id="LOCAL-00001" summary="Add article model">
       <created>1677722244724</created>
