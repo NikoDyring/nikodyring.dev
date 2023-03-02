@@ -1,5 +1,7 @@
 class Article < ApplicationRecord
   has_one_attached :featured_image
+  has_one_attached :thumbnail
+
   enum category: { uncategorized: 0, coding: 1, game_development: 2, gaming: 3, lifestyle: 4 }
   enum status: { draft: 0, published: 1 }
 

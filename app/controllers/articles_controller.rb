@@ -1,6 +1,11 @@
 class ArticlesController < ApplicationController
   def index
-    @articles = Article.all
+    @categories = Article.categories.reject { |category| category == 'Uncategorized' }
+    @articles = if params[:category].present? && Article.categories.keys.include?(params[:category])
+                  Article.send(params[:category])
+                else
+                  Article.all
+                end
   end
 
   def show
