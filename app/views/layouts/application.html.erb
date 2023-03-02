@@ -24,7 +24,13 @@
     <div class="max-w-7xl mx-auto">
       <div class="min-h-screen flex">
         <%= render 'partials/sidebar' %>
-        <%= yield %>
+        <main class="grow overflow-hidden px-6">
+          <div class="w-full h-full max-w-[1072px] mx-auto flex flex-col">
+            <%= render 'partials/header' %>
+            <%= yield %>
+            <%= render 'articles/partials/footer' %>
+          </div>
+        </main>
       </div>
     </div>
   </body>

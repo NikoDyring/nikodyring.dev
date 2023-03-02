@@ -5,7 +5,7 @@
       <nav class="w-full">
         <ul class="space-y-4">
           <li class="py-2">
-            <%= link_to root_path, class: "text-sky-500 w-full h-6 flex items-center justify-center relative after:absolute after:w-0.5 after:right-0 after:top-0 after:bottom-0 after:bg-sky-500" do %>
+            <%= link_to root_path, class: active_nav_link(root_path) do %>
               <span class="sr-only">Home</span>
               <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="21" height="19">
                 <path fill-opacity=".16" d="M4 7v11h13V7l-6.5-5z" />'
@@ -14,13 +14,13 @@
             <% end %>
           </li>
           <li class="py-2">
-            <a class="text-slate-400 hover:text-slate-500 dark:text-slate-500 dark:hover:text-slate-400 w-full h-6 flex items-center justify-center" href="about.html">
+            <%= link_to about_path, class: active_nav_link(about_path) do %>
               <span class="sr-only">About</span>
               <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
                 <path fill-opacity=".16" d="M10 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8Z" />
                 <path d="M9 5h2v2H9V5Zm0 4h2v6H9V9Zm1-9C4.48 0 0 4.48 0 10s4.48 10 10 10 10-4.48 10-10S15.52 0 10 0Zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8Z" />
               </svg>
-            </a>
+            <% end %>
           </li>
           <li class="py-2">
             <a class="text-slate-400 hover:text-slate-500 dark:text-slate-500 dark:hover:text-slate-400 w-full h-6 flex items-center justify-center" href="subscribe.html">
