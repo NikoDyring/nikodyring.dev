@@ -8,4 +8,16 @@ class Article < ApplicationRecord
   validates :text, presence: true
   validates :category, presence: true
   validates :status, presence: true
+
+  after_commit :set_published_at, on: [:create, :update], if: :article_published?
+
+  private
+
+  def article_published?
+    saved_change_to_status? && published?
+  end
+
+  def set_published_at
+    update_column(:published_at, Time.now)
+  end
 end
