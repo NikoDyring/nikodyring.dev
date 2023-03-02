@@ -17,8 +17,9 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_02_015637) do
   create_table "articles", force: :cascade do |t|
     t.string "headline"
     t.string "text"
-    t.integer "category"
-    t.integer "status"
+    t.integer "category", default: 0
+    t.integer "status", default: 0
+    t.datetime "published_at"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

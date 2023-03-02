@@ -5,13 +5,13 @@
       <nav class="w-full">
         <ul class="space-y-4">
           <li class="py-2">
-            <a class="text-sky-500 w-full h-6 flex items-center justify-center relative after:absolute after:w-0.5 after:right-0 after:top-0 after:bottom-0 after:bg-sky-500" href="index.html">
+            <%= link_to root_path, class: "text-sky-500 w-full h-6 flex items-center justify-center relative after:absolute after:w-0.5 after:right-0 after:top-0 after:bottom-0 after:bg-sky-500" do %>
               <span class="sr-only">Home</span>
               <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="21" height="19">
                 <path fill-opacity=".16" d="M4 7v11h13V7l-6.5-5z" />
                 <path d="m10.433 3.242-8.837 6.56L.404 8.198l10.02-7.44L20.59 8.194l-1.18 1.614-8.977-6.565ZM16 17V9h2v10H3V9h2v8h11Z" />
               </svg>
-            </a>
+            <% end %>
           </li>
           <li class="py-2">
             <a class="text-slate-400 hover:text-slate-500 dark:text-slate-500 dark:hover:text-slate-400 w-full h-6 flex items-center justify-center" href="about.html">

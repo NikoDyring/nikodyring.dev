@@ -3,8 +3,9 @@ class CreateArticles < ActiveRecord::Migration[7.0]
     create_table :articles do |t|
       t.string :headline
       t.string :text
-      t.integer :category
-      t.integer :status
+      t.integer :category, default: 0
+      t.integer :status, default: 0
+      t.datetime :published_at
 
       t.timestamps
     end
