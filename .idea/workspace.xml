@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de6ad799-63ca-4cca-a164-3c70db0f3bd0" name="Changes" comment="Add article model">
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-    </list>
+    <list default="true" id="de6ad799-63ca-4cca-a164-3c70db0f3bd0" name="Changes" comment="Add article model" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +138,7 @@
       <updated>1677458452480</updated>
       <workItem from="1677458453496" duration="1933000" />
       <workItem from="1677715563400" duration="167000" />
-      <workItem from="1677715745603" duration="41027000" />
+      <workItem from="1677715745603" duration="41186000" />
     </task>
     <task id="LOCAL-00001" summary="Add article model">
       <created>1677722244724</created>
