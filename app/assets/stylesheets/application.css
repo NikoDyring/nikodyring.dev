@@ -12,4 +12,10 @@
  *
  *= require_tree .
  *= require_self
+ *= require style
+ *= require additional-styles/custom-fonts
+ *= require additional-styles/utility-patterns
+ *= require additional-styles/range-slider
+ *= require additional-styles/toggle-switch
+ *= require additional-styles/theme
  */
