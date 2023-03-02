@@ -75,3 +75,5 @@ group :test do
   gem "webdrivers"
   gem 'shoulda-matchers'
 end
+
+gem "rollbar", "~> 3.4"

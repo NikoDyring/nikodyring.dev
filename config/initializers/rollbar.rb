@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 Rollbar.configure do |config|
   # Without configuration, Rollbar is enabled in all environments.
   # To disable in specific environments, set config.enabled=false.
@@ -7,7 +5,9 @@ Rollbar.configure do |config|
   config.access_token = '4def1eb8f26a4e1ca15c26884dcc0b8d'
 
   # Here we'll disable in 'test':
-  config.enabled = false if Rails.env.test?
+  if Rails.env.test?
+    config.enabled = false
+  end
 
   # By default, Rollbar will try to call the `current_user` controller method
   # to fetch the logged-in user object, and then call that object's `id`
