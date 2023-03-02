@@ -4,6 +4,7 @@ class Article < ApplicationRecord
   enum status: { draft: 0, published: 1 }
 
   validates :headline, presence: true
+  validates :subtitle, presence: true
   validates :text, presence: true
   validates :category, presence: true
   validates :status, presence: true

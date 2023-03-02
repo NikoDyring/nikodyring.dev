@@ -5,13 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de6ad799-63ca-4cca-a164-3c70db0f3bd0" name="Changes" comment="Add article model">
-      <change afterPath="$PROJECT_DIR$/app/views/articles/partials/_article.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/articles_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/articles_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/article.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/article.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/project.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/project.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/articles/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/articles/partials/_article.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/partials/_article.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/partials/_sidebar.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/partials/_sidebar.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/migrate/20230302015637_create_articles.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20230302015637_create_articles.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/factories/articles.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/factories/articles.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/factories/projects.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/factories/projects.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/factories/users.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/helpers/articles_helper_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/helpers/blog_helper_spec.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/models/article_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/article_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/project_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/project_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/articles_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/blog_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/sidekiq/example_job_spec.rb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +158,7 @@
       <updated>1677458452480</updated>
       <workItem from="1677458453496" duration="1933000" />
       <workItem from="1677715563400" duration="167000" />
-      <workItem from="1677715745603" duration="10760000" />
+      <workItem from="1677715745603" duration="12017000" />
     </task>
     <task id="LOCAL-00001" summary="Add article model">
       <created>1677722244724</created>
