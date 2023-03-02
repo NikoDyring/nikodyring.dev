@@ -28,8 +28,13 @@ install_plugin Capistrano::SCM::Git
 #
 
 require 'capistrano/rails'
-require 'capistrano/passenger'
+require 'capistrano/puma'
 require "capistrano/rbenv"
+install_plugin Capistrano::Puma
+install_plugin Capistrano::Puma::Systemd
+
+set :puma_threads,    [4, 16]
+set :puma_workers,    0
 
 set :rbenv_type, :user
 set :rbenv_ruby, '3.1.2'
