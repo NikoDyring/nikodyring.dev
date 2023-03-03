@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de6ad799-63ca-4cca-a164-3c70db0f3bd0" name="Changes" comment="Add article model">
-      <change afterPath="$PROJECT_DIR$/app/views/about/partials/_role.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/about/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/about/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/helpers/about_helper_spec.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/requests/about_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/articles/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/index.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +141,7 @@
       <updated>1677458452480</updated>
       <workItem from="1677458453496" duration="1933000" />
       <workItem from="1677715563400" duration="167000" />
-      <workItem from="1677715745603" duration="45325000" />
+      <workItem from="1677715745603" duration="47330000" />
     </task>
     <task id="LOCAL-00001" summary="Add article model">
       <created>1677722244724</created>
