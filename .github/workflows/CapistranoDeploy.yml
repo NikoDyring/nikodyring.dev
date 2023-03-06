@@ -18,7 +18,7 @@ jobs:
           name: github-actions
           known_hosts: 'random-placeholder-value-replaced-by-keyscan-below'
           config: |
-            host 165.232.122.199/
+            host 165.232.122.199
               IdentityFile ~/.ssh/github-actions
               IdentitiesOnly yes
               ForwardAgent yes
