@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="de6ad799-63ca-4cca-a164-3c70db0f3bd0" name="Changes" comment="Add article model">
       <change beforePath="$PROJECT_DIR$/.github/workflows/CapistranoDeploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/CapistranoDeploy.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +145,7 @@
       <workItem from="1677895564894" duration="6365000" />
       <workItem from="1678092154857" duration="2110000" />
       <workItem from="1678095843396" duration="91000" />
-      <workItem from="1678096222289" duration="2465000" />
+      <workItem from="1678096222289" duration="2932000" />
     </task>
     <task id="LOCAL-00001" summary="Add article model">
       <created>1677722244724</created>
