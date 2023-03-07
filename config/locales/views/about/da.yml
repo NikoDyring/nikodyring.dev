@@ -1,0 +1,24 @@
+da:
+  views:
+    about:
+      index:
+        title: Om os
+        description: Vi er en lille virksomhed, der elsker at lave apps.
+        header_html: "Foo Baa"
+        experience:
+          title: "Foo Baa"
+        lets_connect:
+          title: "Foo Baa"
+          text_html: "Foo Baa"
+        short_bio:
+          text_html: "Foo Baa"
+          title: "Foo Baa"
+    articles:
+      index:
+        introduction:
+          header_html: "Foo Baa"
+          header_text: "Foo Baa"
+        articles:
+          header: "Foo Baa"
+        projects:
+          header: "Interessante Projekter"

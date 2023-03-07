@@ -3,8 +3,12 @@
   <div class="flex items-center justify-between h-16 before:block">
     <div class="grow flex justify-end space-x-4">
 
+      <!-- Language switch -->
+      <div class="flex justify-center">
+        <%= image_tag(asset_path('da.svg'), height: 16, width: 16) %>
+      </div>
       <!-- Light switch -->
-      <div class="flex flex-col justify-center ml-3">
+      <div class="flex flex-col justify-center">
         <input type="checkbox" name="light-switch" id="light-switch" class="light-switch sr-only" />
         <label class="relative cursor-pointer p-2" for="light-switch">
           <svg class="dark:hidden" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
@@ -18,7 +22,6 @@
           <span class="sr-only">Switch to light / dark version</span>
         </label>
       </div>
-
       <!-- Button -->
       <div>
         <a class="btn-sm text-slate-100 bg-sky-500 hover:bg-sky-600" href="subscribe.html">Subscribe</a>

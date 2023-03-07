@@ -3,8 +3,8 @@
   <div class="max-w-[700px]">
     <div class="pt-8 pb-10">
       <%= image_tag asset_path('profile-picture.jpg'), class: 'rounded-full mb-5', width: '56', height: '56', alt: 'Me' %>
-      <h1 class="h1 font-aspekta mb-5">I write about coding and becoming a <span class="inline-flex relative text-sky-500 before:absolute before:inset-0 before:bg-sky-200 dark:before:bg-sky-500 before:opacity-30 before:-z-10 before:-rotate-2 before:translate-y-1/4">full-time</span> maker.</h1>
-      <p class="text-lg text-slate-500 dark:text-slate-400">Motorcyclist, Developer, and aspiring game developer. I write about coding, prototyping, and my journey becoming a full-time maker.</p>
+      <h1 class="h1 font-aspekta mb-5"><%= t('views.articles.index.introduction.header_html') %></h1>
+      <p class="text-lg text-slate-500 dark:text-slate-400"><%= t('views.articles.index.introduction.header_text') %></p>
     </div>
   </div>
 </section>
@@ -15,7 +15,7 @@
       <div class="space-y-10">
         <!-- Latest Articles -->
         <section>
-          <h2 class="font-aspekta text-xl font-[650] mb-3">Latest Articles</h2>
+          <h2 class="font-aspekta text-xl font-[650] mb-3"><%= t('views.articles.index.articles.header') %></h2>
 
           <!-- Filters -->
           <ul class="flex flex-wrap text-sm border-b border-slate-100 dark:border-slate-800">
@@ -37,7 +37,7 @@
         </section>
         <!-- Open-Source Projects -->
         <section>
-          <h2 class="font-aspekta text-xl font-[650] mb-5">Interesting Projects</h2>
+          <h2 class="font-aspekta text-xl font-[650] mb-5"><%= t('views.articles.index.projects.header') %></h2>
           <!-- Cards -->
           <div class="grid sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-5">
             <a class="rounded-lg border border-slate-200 dark:border-slate-800 dark:bg-gradient-to-t dark:from-slate-800 dark:to-slate-800/30 odd:-rotate-1 even:rotate-1 hover:rotate-0 transition-transform duration-700 hover:duration-100 ease-in-out p-5" href="#0">
