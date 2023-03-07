@@ -15,4 +15,13 @@ module ApplicationHelper
       asset_path('en.svg')
     end
   end
+
+  def swap_locale(locale)
+    case locale
+    when :da
+      I18n.locale = :en
+    else
+      I18n.locale = :da
+    end
+  end
 end

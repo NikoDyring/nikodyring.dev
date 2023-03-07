@@ -5,7 +5,9 @@
 
       <!-- Language switch -->
       <div class="flex justify-center">
-        <%= image_tag(active_locale_icon(I18n.locale), height: 16, width: 16) %>
+        <%= link_to url_for(locale: swap_locale(I18n.locale)) do %>
+          <%= image_tag(active_locale_icon(I18n.locale), height: 16, width: 16, class: 'mt-2') %>
+        <% end %>
       </div>
       <!-- Light switch -->
       <div class="flex flex-col justify-center">
