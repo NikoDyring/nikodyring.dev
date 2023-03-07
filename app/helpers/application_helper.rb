@@ -6,4 +6,13 @@ module ApplicationHelper
       'text-slate-400 hover:text-slate-500 dark:text-slate-500 dark:hover:text-slate-400 w-full h-6 flex items-center justify-center'
     end
   end
+
+  def active_locale_icon(locale)
+    case locale
+    when :en
+      asset_path('da.svg')
+    else
+      asset_path('en.svg')
+    end
+  end
 end

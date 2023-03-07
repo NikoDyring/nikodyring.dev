@@ -22,7 +22,7 @@
             <% Article.categories.each do |category, value| %>
               <% if category.to_s != 'uncategorized' %>
                 <li class="px-3 -mb-px">
-                  <%= link_to category.to_s.titleize, articles_path(category: category), class: 'block py-3 font-medium text-slate-800 dark:text-slate-100 border-b-2 border-sky-500' %>
+                  <%= link_to category.to_s.titleize, articles_path(category: category, locale: I18n.locale), class: 'block py-3 font-medium text-slate-800 dark:text-slate-100 border-b-2 border-sky-500' %>
                 </li>
               <% end %>
             <% end %>
