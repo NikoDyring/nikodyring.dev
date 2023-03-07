@@ -1,10 +1,10 @@
 <!-- Header -->
 <header>
   <div class="flex items-center justify-between h-16 before:block">
-    <div class="grow flex justify-end space-x-4">
+    <div class="grow flex justify-end space-x-2">
 
       <!-- Language switch -->
-      <div class="flex justify-center">
+      <div>
         <%= link_to url_for(locale: swap_locale(I18n.locale)) do %>
           <%= image_tag(active_locale_icon(I18n.locale), height: 16, width: 16, class: 'mt-2') %>
         <% end %>

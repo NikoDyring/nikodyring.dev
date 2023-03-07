@@ -9,8 +9,10 @@ module ApplicationHelper
 
   def active_locale_icon(locale)
     case locale
-    when :en
+    when :da
       asset_path('da.svg')
+    when :en
+      asset_path('en.svg')
     else
       asset_path('en.svg')
     end
@@ -20,8 +22,10 @@ module ApplicationHelper
     case locale
     when :da
       I18n.locale = :en
-    else
+    when :en
       I18n.locale = :da
+    else
+      I18n.locale = :en
     end
   end
 end
