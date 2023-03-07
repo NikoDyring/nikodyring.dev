@@ -5,7 +5,7 @@
       <nav class="w-full">
         <ul class="space-y-4">
           <li class="py-2">
-            <%= link_to articles_path(locale: I18n.locale), class: active_nav_link(locale: I18n.locale) do %>
+            <%= link_to articles_path(locale: I18n.locale), class: active_nav_link(articles_path(locale: I18n.locale)) do %>
               <span class="sr-only">Home</span>
               <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="21" height="19">
                 <path fill-opacity=".16" d="M4 7v11h13V7l-6.5-5z" />'
