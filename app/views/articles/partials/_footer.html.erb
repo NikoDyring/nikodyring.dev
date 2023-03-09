@@ -29,8 +29,12 @@
       </ul>
 
       <!-- Copyright -->
-      <div class="text-sm text-slate-500 dark:text-slate-400">Copyright &copy; NikoDyring. All rights reserved.</div>
-
+      <div class="text-sm text-slate-500 dark:text-slate-400 inline">
+        Copyright &copy; <%= link_to 'NikoDyring', 'https://github.com/nikodyring' %> | Built with
+        <%= link_to 'https://rubyonrails.org/' do %>
+          <%= image_tag(asset_path('ruby-on-rails.svg'), class: 'inline-block', width: 60, height: 30) %>
+        <% end %>
+      </div>
     </div>
   </div>
 </footer>
