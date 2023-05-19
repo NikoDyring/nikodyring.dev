@@ -13,6 +13,7 @@ install_plugin Capistrano::Puma::Systemd
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
 
+set :application, 'nikodyring_dev'
 set :stage, :production
 set :deploy_via, :remote_cache
 set :deploy_to, '/home/deploy/nikodyring_dev'
@@ -24,6 +25,8 @@ set :puma_error_log,  "#{release_path}/log/puma.error.log"
 set :puma_preload_app, true
 set :puma_worker_timeout, nil
 set :puma_init_active_record, true  # Change to false when not using ActiveRecord
+set :puma_service_unit_name, "puma_#{fetch(:application)}_#{fetch(:stage)}"
+
 
 append :linked_files, "config/master.key"
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "public/uploads"
