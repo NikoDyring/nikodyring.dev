@@ -35,3 +35,5 @@
 /node_modules/*
 .idea/*
 .byebug_history
+
+/node_modules

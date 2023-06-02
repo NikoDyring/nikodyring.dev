@@ -1,0 +1,27 @@
+<div class="w-full max-w-xs self-center dark:bg-slate-800 shadow-md rounded px-8 pt-6 pb-8 mb-4">
+  <div class="">
+    <%= image_tag 'shoei_helmet.jpg', class: 'rounded-full h-full mix-blend' %>
+  </div>
+  <%= form_for resource, as: resource_name, url: session_path(resource_name), html: { class: '' } do |f| %>
+      <div class="mb-4">
+        <%= f.label :email, class: 'block dark:text-white text-slate-500 text-sm font-bold ' %><br />
+        <%= f.email_field :email, autofocus: true, autocomplete: "email", class: 'shadow appearance-none border rounded w-full py-2 px-3 dark:text-white leading-tight focus:outline-none focus:shadow-outline text-slate-500' %>
+      </div>
+
+      <div class="mb-6">
+        <%= f.label :password, class: 'block dark:text-white text-slate-500 text-sm font-bold'%><br />
+        <%= f.password_field :password, autocomplete: "current-password", class: 'shadow appearance-none border rounded w-full py-2 px-3 dark:text-white leading-tight focus:outline-none focus:shadow-outline text-slate-500' %>
+      </div>
+      <div class="flex items-center justify-between">
+        <%= f.button "Log in", type: 'submit', class: 'btn bg-slate-200 hover:bg-slate-300 dark:text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline' %>
+        <a class="inline-block align-baseline font-bold text-sm dark:text-white hover:text-slate-300" href="#">
+          Forgot Password?
+        </a>
+      </div>
+  <% end %>
+</div>
+<p class="text-center text-slate-400 text-xs pb-2">
+  &copy; 2023 NikoDyring.dev - All rights reserved.
+</p>
+
+<%#= render "devise/shared/links" %>

@@ -7,6 +7,14 @@ module ApplicationHelper
     end
   end
 
+  def active_category_link(active_category, category)
+    if active_category == category
+      'block py-3 font-medium text-slate-800 dark:text-slate-100 border-b-2 border-sky-500'
+    else
+      'block py-3 font-medium text-slate-800 dark:text-slate-100'
+    end
+  end
+
   def active_locale_icon(locale)
     case locale
     when :da

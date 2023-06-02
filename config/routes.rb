@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
@@ -7,6 +8,7 @@ Rails.application.routes.draw do
   scope "/:locale" do
     resources :articles
     resources :projects
+    devise_for :users
     get "/about", to: "about#index"
   end
 end

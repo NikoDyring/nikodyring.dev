@@ -7,18 +7,17 @@
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
-    <%= javascript_include_tag "application" %>
+    <%= javascript_include_tag "application", type: 'module' %>
 
     <%= javascript_importmap_tags %>
     <script>
         if (localStorage.getItem('dark-mode') === 'false' || !('dark-mode' in localStorage)) {
-            console.log('light mode');
             document.querySelector('html').classList.remove('dark');
         } else {
-            console.log('dark mode');
             document.querySelector('html').classList.add('dark');
         }
     </script>
+    <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
   </head>
 
   <body class="font-inter antialiased bg-white text-slate-800 dark:bg-slate-900 dark:text-slate-200 tracking-tight">
