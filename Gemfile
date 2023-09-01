@@ -81,6 +81,3 @@ group :test do
   gem 'shoulda-matchers'
 end
 
-gem "rollbar", "~> 3.4"
-
-gem "devise", "~> 4.9"
